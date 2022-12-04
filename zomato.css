@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Anton&family=Libre+Franklin&family=Montserrat&family=Mulish:wght@500&family=Noto+Sans+JP:wght@900&family=Raleway:ital,wght@0,300;1,300&family=Ubuntu&display=swap');
+/* header */
+body {
+    margin: 0;
+}
+
+.header {
+    height: 440px;
+    background-color: beige;
+    background-image: url("./images/foodcover.jpg");
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .7);
+    
+}
+.linkname {
+    margin-left: 750px;
+    padding-top: 10px;
+
+}
+a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;  
+}
+
+
+
+
+
+/* search engine / middle*/
+.middle {
+    margin-top: 120px;
+    text-align: center;
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+
+}
+h2 {
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+}
+span {
+    font-size: 40px;
+}
+.search_engine {
+    height: 50px;
+    width: 60%;
+    background-color: white;
+    border: 1px #73777B solid;
+    border-radius: 15px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.search {
+width: 40%;
+height: 40px;
+}
+#loc {
+    width: 60%;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 20px; 
+}
+.search_bar {
+    width: 100%;
+    height: 36px;
+    margin-left: -22px;
+    font-size: 20px;
+}
+
+
+
+
+
+/* footer */
+p {
+    color: #73777B;
+    font-size: 15px;
+    padding-left: 20px; 
+    margin-top: 5px; 
+    font-family: 'Libre Franklin', sans-serif;
+}
+h3 {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 1px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h3:hover {
+    color: #73777B;
+}
+.footer {
+    height: 315px;
+     display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.col {
+    width: 38%;
+    height: 220px;
+    border: 1px gray solid;
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+img {
+    height: 120px;
+    width: 100%;
+}
+.col-1 {
+    margin-left: 60px;
+}
+.col-2 {
+    margin-right: 60px;
+}
